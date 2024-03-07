@@ -42,9 +42,10 @@ export const palavrasMundialPalmeiras = {
 // Para pergunta 5:Palavras que não tem haver com futebol
 export const papoFurado = {
     probablyWords: [
-        "filme", "basquete", "unha",
-        "teclado", "vôlei", "natação",
-        "atletismo", "esgrima",
+        "cinema","jogos","restaurante","porta",
+        "carro","sapatos","roupas","medico","microondas",
+        "moto","onibus",
+
     ],
     matched: 0,
 }
