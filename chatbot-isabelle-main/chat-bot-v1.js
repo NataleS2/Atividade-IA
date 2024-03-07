@@ -82,3 +82,11 @@ export function mostProbablyQuestion() {
     // Ira ver quantas palavras de cada pergunta foi usada
     return showAnswer(matches.indexOf(Math.max(...matches)))
 }
+// Verifica se a pergunta inclui palavras inválidas
+const palavrasInvalidas = temasValidos.invalidas;
+const possuiPalavraInvalida = palavrasInvalidas.some(word => pergunta.includes(word));
+if (possuiPalavraInvalida) {
+    console.log("Desculpe, não entendi a pergunta.");
+} else {
+    console.log(mostProbablyQuestion(pergunta));
+}
