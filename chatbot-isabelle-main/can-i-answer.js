@@ -49,7 +49,7 @@ export const papoFurado = {
     matched: 0,
 }
 
-
+//ira mostrar as perguntas feitas.
 function showAnswer(index) {
     switch (index) {
         case 0:
